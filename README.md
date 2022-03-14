@@ -1,11 +1,37 @@
 # Lab 2 CSS DASAR THML
 
-1. 
+1. Menapilan Header, Vanbar div Class, ID
+* Membuat tampilan Header di dalam tampilan body dengan menggunakan tag `<Header> </Header>` lalu masukan tag `<h1>` menampilan isi dalam `<h1> CSS Internal dan <i>Inline CSS</i></h1>`, tag `<i>` untuk menampilak text miring.
+
+* langkah selanjutya membuat tampilan navbar dengan tag `<nav>`, di dalam tag nav masukan link dengan tag `<a href=""></a>`, isi bagian `href` dengan link yang akan di tuju lalu masukan isi text yang akan di tampilkan pada web agar penguna mengetahui link tersebut menuju pada bagian mana, contoh seperti pada gambar di bawah ini.
+* Membuat CSS ID Selector<br>pada bagian ini buat lah sebuah `<div id="">` isi pada bagian kutip dua degan `intro` untuk menandai bawah di dalam div mempunyai ID yang di wakilkan seluruh isi dalam div itu dengan Intro
+* Membuat CSS Class <br> membuat Class Selector, masukan nama `Class=""` lalu isi link pada bagian `href=""` contoh seperti di bawah ini. 
 ![1_1.png](Gambar/1_1.png)
+* Maka Tampilan akan seperti di bawah ini
 ![1.png](Gambar/1.png)
 
 
-2. 
+2. Mendeklarasikan CSS Internal
+* pada bagian  `<head>` tulis tag `<style>` berfungsi agar HTML mengetahui bawa itu adalah CSS, lalu panggil nama `tag` html yang akan di berikan CSS, contoh.
+
+        <style>
+            * merubah text pada bagian tag body
+            body{
+                font-family: 'Open Sans', sans-serifl
+            }
+            * merubah isi dalam header
+            header{
+                min-height: 80px;
+                border-bottom: 1x solid #77CCEF;
+            }
+            * merubah tampilan h1
+            h1{
+                fon-size: 24px;
+                color: biru;
+                text-align: center;
+                padding: 20px 10px;
+            }
+        </style>
 ![2_2.png](Gambar/2_2.png)
 ![2.png](Gambar/2.png)
 
