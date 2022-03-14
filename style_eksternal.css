@@ -1,0 +1,57 @@
+nav{
+    background: #20a759;
+    color: #fff;
+    padding: 10px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav .active,
+nav a:hover{
+    background: #0b6b3a;
+}
+
+/* ID Selector */
+#intro{
+    background:teal;
+    border: 2px solid #20a759;
+    min-height: 100px;
+    padding: 10px;
+}
+
+/* Merubah isi tampilan pada bagian
+ID */
+#intro h1{
+    text-align: left;
+    border: 0;
+    color: white;
+}
+
+/* Merubah Paragrap pada bagian div ID Intro */
+#intro p{
+    text-align: left;
+    border: 0;
+    color: #fff;
+    padding: 1px;
+}
+
+/* Merubah Ukuran Logo Univeritas Pelita Bangsa */
+#intro img{
+    height: 90px;
+    width: 120px;
+}
+/* Class Selector */
+.button {
+    padding: 10px 15px;
+    background: #0b6b3a;
+    color: #fff;
+    display: inline-block;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.btn-primary{
+    background: #E42A42;
+}
